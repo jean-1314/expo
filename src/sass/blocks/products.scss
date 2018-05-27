@@ -1,0 +1,22 @@
+.products__items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 2rem 0;
+
+  @media #{$desktop} {
+    justify-content: flex-start;
+  }
+}
+
+.products__item {
+  display: flex;
+  align-items: center;
+  padding: 10px 5px;
+}
+
+.products__item-img {
+  width: 40px;
+  height: 40px;
+  margin-right: 1.25rem;
+}

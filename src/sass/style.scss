@@ -1,0 +1,16 @@
+@import "~normalize.css/normalize.css";
+@import "~swiper/dist/css/swiper.min.css";
+
+@import "fonts";
+@import "variables";
+@import "mixins";
+@import "scaffolding";
+
+@import "blocks/header";
+@import "blocks/main-nav";
+@import "blocks/main";
+@import "blocks/products";
+@import "blocks/slider";
+@import "blocks/title";
+@import "blocks/about";
+@import "blocks/footer";

@@ -1,0 +1,31 @@
+.about {
+  padding: 2rem 0;
+}
+
+.about__items {
+  @media #{$tablet} {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.about__item {
+  text-align: center;
+  margin-bottom: 1.5rem;
+
+  @media #{$tablet} {
+    flex: 0 0 200px;
+  }
+}
+
+.about__item-img {
+  margin-bottom: 1rem;
+}
+
+.about__item-title {
+  margin-bottom: 1rem;
+}
+
+.about__item-description {
+  line-height: 1.4;
+}
